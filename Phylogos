@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos Ambientales IED Soledad Acosta de Samper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 900px;
+        }
+        .card {
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(255, 255, 255, 0.1), 0 10px 10px -5px rgba(255, 255, 255, 0.04);
+        }
+        .highlight {
+            background-color: #3b82f6;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem;
+        }
+    </style>
+</head>
+<body class="bg-black text-white p-8">
+
+    <div class="container mx-auto bg-gray-900 rounded-3xl shadow-xl p-8 md:p-12 my-10">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-lime-400 leading-tight">Proyectos Ambientales del Colegio Soledad Acosta de Samper 🏫🌳</h1>
+            <p class="mt-4 text-xl text-lime-300">Un compromiso con la naturaleza y el aprendizaje 💚🌱</p>
+        </header>
+
+        <!-- Sección del Macroproyecto PRAE -->
+        <section class="mb-12">
+            <div class="card bg-lime-900/50 p-6 md:p-8">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-seedling text-4xl text-lime-400"></i>
+                    <h2 class="text-3xl font-bold text-lime-300 ml-4">Macroproyecto PRAE: CON-CIENCIA AMBIENTAL ✨</h2>
+                </div>
+                <p class="text-lg mb-4 leading-relaxed">
+                    Nuestro Proyecto Ambiental Escolar (PRAE) 🌍, liderado por el área de Ciencias Naturales 🔬, busca la transformación de nuestra comunidad educativa. El objetivo es identificar, proteger y estudiar la rica biodiversidad 🦋 del bosque altoandino de la Sabana de Bogotá.
+                </p>
+                <div class="bg-lime-800/50 p-4 rounded-xl mt-4">
+                    <h4 class="text-xl font-semibold text-lime-200 mb-2">Proyectos Articulados:</h4>
+                    <ul class="list-disc list-inside text-lime-100 space-y-2">
+                        <li><span class="highlight">Conmemoración de fechas ambientales</span> 🗓️: Sensibilizamos sobre la responsabilidad ciudadana y cristiana con nuestra casa común.</li>
+                        <li><span class="highlight">Ambiente Arte-Sano</span> 🎨: Un proyecto transversal que conecta la salud física y mental con la expresión artística y el medio ambiente.</li>
+                        <li><span class="highlight">Día ecológico</span> 🌿: Damos a conocer la diversidad de ecosistemas y especies nativas para evitar su pérdida.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section class="mb-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-lime-400 text-center mb-8">Nuestros Proyectos en Acción 🚀</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Grupo de Investigación Escolar PHYLOGOS -->
+                <div class="card bg-green-900/50 p-6 md:p-8">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-microscope text-4xl text-green-400"></i>
+                        <h3 class="text-2xl font-bold text-green-300 ml-4">Grupo de Investigación Escolar PHYLOGOS 🧪</h3>
+                    </div>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        PHYLOGOS, nuestro semillero de investigación 🌱, cuenta con <b>50 estudiantes</b> de <b>grado 5° a 11°</b>. A través de la aplicación del método científico 🧬, exploran y buscan soluciones a problemáticas ambientales. Este proyecto es liderado por el docente de ciencias naturales, <b>Juan Pablo Ospina Ramírez</b>.
+                    </p>
+                    <div class="bg-green-800/50 p-4 rounded-xl mt-4">
+                        <h4 class="text-xl font-semibold text-green-200 mb-2">Enfocados en:</h4>
+                        <ul class="list-disc list-inside text-green-100 space-y-2">
+                            <li>Producción de abonos ♻️</li>
+                            <li>Biodiversidad local 🐞</li>
+                            <li>Producción de alimentos 🍎</li>
+                            <li>Germinación y restauración ecológica 🌳</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Restauración Ecológica -->
+                <div class="card bg-teal-900/50 p-6 md:p-8">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-tree text-4xl text-teal-400"></i>
+                        <h3 class="text-2xl font-bold text-teal-300 ml-4">Restauración Ecológica 🏞️</h3>
+                    </div>
+                    <p class="text-lg leading-relaxed">
+                        En alianza con el <span class="font-semibold text-teal-200">Grupo de Restauración Ecológica de la Universidad Nacional de Colombia (GREUNAL)</span>, nuestros estudiantes líderes de investigación se capacitan en conceptos de biología, botánica y ecología 🌱. Este proyecto, que se inició en 2020, ha permitido a los estudiantes adquirir conocimientos sobre la calidad del suelo y la flora silvestre del colegio.
+                    </p>
+                </div>
+
+                <!-- Huerta Agroecológica Escolar -->
+                <div class="card bg-amber-900/50 p-6 md:p-8 col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hand-holding-heart text-4xl text-amber-400"></i>
+                        <h3 class="text-2xl font-bold text-amber-300 ml-4">Huerta Agroecológica Escolar 🌻</h3>
+                    </div>
+                    <p class="text-lg leading-relaxed">
+                        Este proyecto se enfoca en la producción de alimentos 🥗 en un espacio que une saberes ecológicos, culturales, científicos y escolares. Busca una convivencia respetuosa con la biodiversidad del sector, integrando el aprendizaje basado en proyectos (ABP) y promoviendo la nutrición saludable. Además, los estudiantes de PHYLOGOS han trabajado en un proyecto llamado <span class="font-semibold">"Sembrando Vidas"</span> para establecer un protocolo eficiente para la germinación y plantación de hortalizas 🍅.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Alianzas y Logros -->
+        <section class="mb-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-lime-400 text-center mb-8">Alianzas y Logros Destacados 🤝🏅</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Secretaría Distrital de Salud -->
+                <div class="card bg-orange-900/50 p-6 md:p-8">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hospital-user text-4xl text-orange-400"></i>
+                        <h3 class="text-2xl font-bold text-orange-300 ml-4">Secretaría Distrital de Salud 🧡</h3>
+                    </div>
+                    <p class="text-lg leading-relaxed">
+                        Fuimos seleccionados por la Secretaría Distrital de Salud (SDS) para recibir apoyo en recursos y conocimientos 🧠 sobre huertas escolares 🥕 y nutrición saludable. Esta alianza se reactivó en 2024 para fortalecer el proyecto de huertas y promover hábitos de alimentación en la comunidad.
+                    </p>
+                </div>
+
+                <!-- Propuesta SED-STEAM+ -->
+                <div class="card bg-purple-900/50 p-6 md:p-8">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-laptop-code text-4xl text-purple-400"></i>
+                        <h3 class="text-2xl font-bold text-purple-300 ml-4">Propuesta SED-STEAM+ 💻</h3>
+                    </div>
+                    <p class="text-lg leading-relaxed">
+                        Nuestra propuesta, que articula proyectos transversales en ciencia, tecnología, ingeniería, artes y matemáticas, obtuvo un puntaje de <span class="font-semibold">12.9/20</span>, ubicándonos en la <span class="font-semibold">segunda categoría</span> 🎉 en el cierre de la propuesta STEAM+ 2022 de la Secretaría de Educación Distrital (SED).
+                    </p>
+                </div>
+
+                <!-- Salidas Pedagógicas -->
+                <div class="card bg-blue-900/50 p-6 md:p-8 col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-walking text-4xl text-blue-400"></i>
+                        <h3 class="text-2xl font-bold text-blue-300 ml-4">Salidas Pedagógicas 🚶‍♂️</h3>
+                    </div>
+                    <p class="text-lg leading-relaxed">
+                        Se han realizado salidas pedagógicas para complementar el aprendizaje, como la visita al sendero ecológico de la <span class="font-semibold">Quebrada La Vieja</span> y al <span class="font-semibold">sendero occidental del río Bogotá</span> en la actividad "Bici-tando Territorios" 🚲. Estas experiencias buscan que los estudiantes reconozcan las situaciones ambientales de sus alrededores y apliquen sus conocimientos en el mundo real.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section class="mt-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-lime-400 text-center mb-8">Síguenos en nuestras redes 📲</h2>
+            <div class="flex flex-col items-center justify-center space-y-4 md:space-y-0 md:flex-row md:space-x-8">
+                <!-- Facebook -->
+                <div class="flex items-center space-x-2 text-xl text-gray-300">
+                    <i class="fab fa-facebook-square text-3xl"></i>
+                    <span class="font-semibold">@Phylogos Futuro</span>
+                </div>
+                <!-- Instagram -->
+                <div class="flex items-center space-x-2 text-xl text-gray-300">
+                    <i class="fab fa-instagram-square text-3xl"></i>
+                    <span class="font-semibold">@phylogosfuturo</span>
+                </div>
+                <!-- Email -->
+                <div class="flex items-center space-x-2 text-xl text-gray-300">
+                    <i class="fas fa-envelope-square text-3xl"></i>
+                    <span class="font-semibold">phylogosfuturo@gmail.com</span>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="mt-12 text-center text-gray-400 text-sm">
+            <p>&copy; 2025 Colegio Soledad Acosta de Samper IED. Todos los derechos reservados. ✨</p>
+        </footer>
+
+    </div>
+</body>
+</html>
